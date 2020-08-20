@@ -1,3 +1,5 @@
+update public.realm set ssl_required='NONE' where id = 'master';
+
 CREATE SCHEMA gitfocus;
 
 CREATE TABLE gitfocus.units (
